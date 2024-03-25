@@ -7,7 +7,7 @@ README = open(os.path.join(os.path.dirname(__file__), 'readme.md')).read()
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='cache-middleware-django',
+    name='cache_middleware_django',
     version='0.0.1',
     packages=['cache_middleware'],
     include_package_data=True,
